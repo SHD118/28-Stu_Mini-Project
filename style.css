@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: gray;
+}
+h1 {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+ul {
+  display: flex;
+}
+ul li {
+  flex-grow: 1;
+  /* display: flex;
+  justify-content: flex-start;
+  justify-content: space-between; */
+}
+.head_item {
+  border: white 5px solid;
+  display: flex;
+  align-content: center;
+}
